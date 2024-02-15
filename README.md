@@ -4,7 +4,7 @@
 архитектурную и историческую ценность</b>
 
 <b>Скрипт по созданию БД:</b>
-CREATE TABLE test.Categories (
+<pre>CREATE TABLE test.Categories (
 	Category_name varchar(100) NOT NULL,
 	Category_id INT auto_increment primary key NOT NULL
 )
@@ -29,4 +29,4 @@ CREATE table test.user (
 	user_id int auto_increment primary key NOT NULL,
 	login varchar(100) not null,
 	password varchar(100) not null
-)
+)</pre>
