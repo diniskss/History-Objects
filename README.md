@@ -11,18 +11,18 @@ COMMENT='Таблица категорий'
 AUTO_INCREMENT=1;
 
 CREATE TABLE test.Object (
-	Object_id varchar(100) NULL,
-	Category_id varchar(100) NULL,
-	Object_age INT NOT NULL,
-	Object_location varchar(100) NULL,
-	Object_where_it_was_found varchar(100) NULL
+Object_id varchar(100) NULL,
+Category_id varchar(100) NULL,
+Object_age INT NOT NULL,
+Object_location varchar(100) NULL,
+Object_where_it_was_found varchar(100) NULL
 )
 ENGINE=InnoDB
 DEFAULT CHARSET=utf8mb3
 COLLATE=utf8mb3_general_ci;
 
 CREATE table test.user (
-	user_id int auto_increment primary key NOT NULL,
-	login varchar(100) not null,
-	password varchar(100) not null
+user_id int auto_increment primary key NOT NULL,
+login varchar(100) not null,
+password varchar(100) not null
 )</pre>
