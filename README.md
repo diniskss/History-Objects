@@ -1,8 +1,8 @@
 <h1><b>Информационная система учета и контроля объектов, представляющих архитектурную и историческую ценность</b></h1>
 <i><b>Скрипт по созданию БД:</b></i>
 <pre>CREATE TABLE test.Categories (
-	Category_name varchar(100) NOT NULL,
-	Category_id INT auto_increment primary key NOT NULL
+Category_name varchar(100) NOT NULL,
+Category_id INT auto_increment primary key NOT NULL
 )
 ENGINE=InnoDB
 DEFAULT CHARSET=utf8mb3
